@@ -13,6 +13,8 @@
 									  background: gold;
 								}
 						</style>
+						<link rel="stylesheet" type="text/css" href="css/angular-material.min.css">
+						<link rel="stylesheet" type="text/css" href="css/fonts.css">
 		</head>
 
 <body >
@@ -34,7 +36,7 @@
 
 								</li>
 								<li id="nav-menu-item-5943" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page" data-right-position="734"><a href="#" class="menu-link main-menu-link">Customers</a></li>
-								<li id="nav-menu-item-7360" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page" data-right-position="851"><a href="#" class="menu-link main-menu-link">Resources</a></li>
+								<li id="nav-menu-item-7360" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page" data-right-position="851"><a href="#partners" class="menu-link main-menu-link">Partners</a></li>
 								<li id="nav-menu-item-7348" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children touch-hover hide" data-right-position="951"><a href="#" class="menu-link main-menu-link">About Us</a>
 
 								</li>
@@ -75,9 +77,9 @@
 					</div>
 </section>
 
-
+	<p id="how"> </p>
 	<!-- How it Works -->
-	<br><br><br><br><br><br>
+	<br><br><br><br><!-- <br><br> -->
 	<center><h2>How MobiBank<sup>TM</sup>  Works</h2></center>
 		<div class="site-container--wide horizontal-accordion--container">
 			<section class="horizontal-accordion responsive-ratio--parent ratio-3-1">
@@ -151,10 +153,83 @@
 		</div>
 
 		<br><br><br><br>
-		<p id="how"> </p>
+		
+			<p id="more"> </p>
+				<br><br><br><br>
 
-			<!-- Footer Here -->
-		<script type="text/javascript" src="js/jquery.min.js">
+		<div layout="row" layout-margin>
+		  <div flex="15" flex-order="3">
+		  </div>
+
+			<div flex="70" flex-order="3">
+		<div layout="row" flex-order="3">
+		 <div style="background-color:aliceblue;" flex-order="3" flex="55"> 							[flex]
+			</div>
+		<div style=" background-color:aliceblue;"  flex-order="3" flex="55">
+		<!-- Form Here -->
+	<form class="lpeRegForm formNotEmpty" method="post" action="#">
+			<ul class="mktLblAbove">
+
+				<li class="mktFormReq mktField">
+					<span class="mktInput">
+						<input placeholder="First Name" class="mktFormText mktFormString mktFReq" name="FirstName" id="FirstName" type="text" value="" maxlength="255">
+						<span class="mktFormMsg"></span>
+					</span>
+				</li>
+
+				<li class="mktFormReq mktField">
+					<span class="mktInput">
+						<input placeholder="Last Name" class="mktFormText mktFormString mktFReq" name="LastName" id="LastName" type="text" value="" maxlength="255">
+						<span class="mktFormMsg"></span>
+					</span>
+				</li>
+
+				<li class="mktFormReq mktField">
+					<span class="mktInput">
+						<input placeholder="Company" class="mktFormText mktFormString mktFReq" name="Company" id="Company" type="text" value="" maxlength="255">
+						<span class="mktFormMsg"></span>
+					</span>
+				</li>
+				
+				<li class="mktFormReq mktField">
+					<span class="mktInput">
+						<input placeholder="Phone Number" class="mktFormText mktFormPhone mktFReq" name="Phone" id="Phone" type="text" value="" maxlength="255">
+						<span class="mktFormMsg"></span>
+					</span>
+				</li>
+
+				<li class="mktFormReq mktField">
+					<span class="mktInput">
+						<input placeholder="Email" class="mktFormText mktFormEmail mktFReq" name="Email" id="Email" type="text" value="" maxlength="255">
+						<span class="mktFormMsg"></span>
+					</span>
+				</li>
+
+				<li id="mktFrmButtons">
+					<label>&nbsp;</label>
+					<input id="mktFrmSubmit" class="button--small" type="submit" value="Submit">
+				</li>
+			</ul>
+	</form>
+		    							
+		  						</div>
+		    				</div>
+		  				</div>
+		  		<div flex="5" flex-order="3">
+		  		</div>
+</div>
+
+	<p id="partners"> </p>
+
+		<!-- Scripts Here -->
+	<script type="text/javascript" src="js/jquery.min.js">
 		</script>
+	<script type="text/javascript" src="js/angular-material.min.js"></script>
+	<script type="text/javascript" src="js/angular-aria.min.js"></script>
+	<script type="text/javascript" src="js/angular-animate.min.js"></script>
+		<script type="text/javascript" src="js/angular.min.js"></script>
+
+	<!-- Footer Here -->
+
 	</body>
 </html>
